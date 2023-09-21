@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1C5170;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#jeu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    max-width: 900px;
+    min-height: 100px;
+    background-color: #3BAEEF;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: solid white 10px;
+    box-shadow: 10px 5px 100px rgba(0, 0, 0, 0.5);
+}
+
+#paragraphe {
+    margin: 0 50px;
+}
+
+img {
+    width: 100%;
+    margin: 25px 0;
+}
+
+#logo {
+    font-family: 'Almarai', sans-serif;
+    font-size: 45px;
+}
+
+#options {
+    margin-bottom: 50px;
+}
+
+button {
+    margin: 0 100px;
+    width: 75px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #3E5E70;
+    color: white;
+}
+
+button:hover {
+    color: #3E5E70;
+    background-color: #85CAF2;
+}

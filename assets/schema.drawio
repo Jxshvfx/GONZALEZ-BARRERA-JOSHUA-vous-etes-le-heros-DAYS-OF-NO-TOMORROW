@@ -1,0 +1,267 @@
+<mxfile host="65bd71144e">
+    <diagram id="4RMm0HDV5KHOrPg97Kxi" name="Page-1">
+        <mxGraphModel dx="3040" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Activation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Vous devez vous infiltrer dans une base qui manifacture des robots, de quel facon vous l'infiltrer?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="370" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="460" y="340" as="sourcePoint"/>
+                        <mxPoint x="610" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Discrètement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="4" vertex="1" connectable="0">
+                    <mxGeometry x="-0.328" relative="1" as="geometry">
+                        <mxPoint x="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=1;" parent="1" source="3" target="8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450" y="420" as="sourcePoint"/>
+                        <mxPoint x="500" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Explosivement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="5" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3333" y="-1" relative="1" as="geometry">
+                        <mxPoint x="1" y="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450" y="420" as="sourcePoint"/>
+                        <mxPoint x="500" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Vous n'etes pas compétent dans la discretion et vous mourrez." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Vous détruisez tout et réussisez à le fermer." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;html=1;elbow=vertical;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=elbowEdgeStyle;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7" target="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450" y="420" as="sourcePoint"/>
+                        <mxPoint x="500" y="370" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="640" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="&lt;h1&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; font-size: 12px; font-weight: normal; vertical-align: baseline; font-kerning: none;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO265103540 BCX9&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-weight: bold; font-size: 11pt; font-family: Calibri, sans-serif; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Genre&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; font-family: Calibri, sans-serif; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;:&amp;nbsp; Action, Sci-fi&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-family: WordVisiCarriageReturn_MSFontService, Calibri, sans-serif;&quot; class=&quot;LineBreakBlob BlobObject DragDrop SCXO265103540 BCX9&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;&quot; class=&quot;SCXO265103540 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;&quot; class=&quot;SCXO265103540 BCX9&quot;&gt;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-weight: bold; font-size: 11pt; font-family: Calibri, sans-serif; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Inspiration&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; font-family: Calibri, sans-serif; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;:&amp;nbsp; Vivy: Fluorite Eye's Song&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-family: WordVisiCarriageReturn_MSFontService, Calibri, sans-serif;&quot; class=&quot;LineBreakBlob BlobObject DragDrop SCXO265103540 BCX9&quot;&gt;&lt;br style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;&quot; class=&quot;SCXO265103540 BCX9&quot;&gt;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-weight: bold; font-size: 11pt; font-family: Calibri, sans-serif; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Nom&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; font-family: Calibri, sans-serif; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;: Days Of No Tomorrow.&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-family: WordVisiCarriageReturn_MSFontService, Calibri, sans-serif;&quot; class=&quot;LineBreakBlob BlobObject DragDrop SCXO265103540 BCX9&quot;&gt;&lt;br style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;&quot; class=&quot;SCXO265103540 BCX9&quot;&gt;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-weight: bold; font-size: 11pt; font-family: Calibri, sans-serif; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Palette&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; font-family: Calibri, sans-serif; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-family: Calibri, sans-serif;&quot; class=&quot;EOP SCXO265103540 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;ul style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; font-weight: 400; font-size: 12px; font-family: verdana;&quot; role=&quot;list&quot; class=&quot;BulletListStyle1 SCXO265103540 BCX9&quot;&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO265103540 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO265103540 BCX9&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Couleur de fond du site : #1C5170&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO265103540 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;2&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO265103540 BCX9&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;&quot; class=&quot;NormalTextRun SCXO265103540 BCX9&quot;&gt;Couleur de fond du&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&amp;quot;data:image/gif;base64,R0lGODlhBQAEAJECAP////8AAAAAAAAAACH5BAEAAAIALAAAAAAFAAQAAAIIlGAXCCHrTCgAOw==&amp;quot;); border-bottom: 1px solid transparent;&quot; class=&quot;SpellingError SCXO265103540 BCX9&quot;&gt;contenu&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;&quot; class=&quot;NormalTextRun SCXO265103540 BCX9&quot;&gt;&amp;nbsp;: #3BAEEF&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO265103540 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;3&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO265103540 BCX9&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Couleur de la police : #FFFFFF&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px;&quot; class=&quot;EOP SCXO265103540 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO265103540 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;4&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO265103540 BCX9&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Couleur de fond des boutons : #3E5E70&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px;&quot; class=&quot;EOP SCXO265103540 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO265103540 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;5&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO265103540 BCX9&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;&quot; class=&quot;NormalTextRun SCXO265103540 BCX9&quot;&gt;Couleur de fond des boutons&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&amp;quot;data:image/gif;base64,R0lGODlhBQAEAJECAP////8AAAAAAAAAACH5BAEAAAIALAAAAAAFAAQAAAIIlGAXCCHrTCgAOw==&amp;quot;); border-bottom: 1px solid transparent;&quot; class=&quot;SpellingError SCXO265103540 BCX9&quot;&gt;en&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;&quot; class=&quot;NormalTextRun SCXO265103540 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-style: italic; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;hover&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;: #85CAF2&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px;&quot; class=&quot;EOP SCXO265103540 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO265103540 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;6&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO265103540 BCX9&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Couleur de la police des boutons : #FFFFFF&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px;&quot; class=&quot;EOP SCXO265103540 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px 0px 0px 24px; padding-top: 0px; padding-bottom: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; display: block; font-size: 11pt; font-family: Calibri, sans-serif; vertical-align: baseline;&quot; class=&quot;OutlineElement Ltr SCXO265103540 BCX9&quot; data-aria-level=&quot;2&quot; role=&quot;listitem&quot; data-aria-posinset=&quot;7&quot;&gt;&lt;p style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; vertical-align: baseline; font-kerning: none;&quot; lang=&quot;FR-CA&quot; class=&quot;Paragraph SCXO265103540 BCX9&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;Couleur de la police des boutons&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; background-repeat: repeat-x; background-position: left bottom; background-image: url(&amp;quot;data:image/gif;base64,R0lGODlhBQAEAJECAP////8AAAAAAAAAACH5BAEAAAIALAAAAAAFAAQAAAIIlGAXCCHrTCgAOw==&amp;quot;); border-bottom: 1px solid transparent;&quot; class=&quot;SpellingError SCXO265103540 BCX9&quot;&gt;en&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;&quot; class=&quot;NormalTextRun SCXO265103540 BCX9&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-style: italic; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;hover&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18px; font-variant-ligatures: none !important;&quot; lang=&quot;EN-US&quot; class=&quot;TextRun SCXO265103540 BCX9&quot; data-contrast=&quot;auto&quot;&gt;: #355E70&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry y="10" width="490" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="52" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="600" as="sourcePoint"/>
+                        <mxPoint x="415" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Lors d'une escapade, vous voyez un scientifique qui a besoin d'aide" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="333.82" y="950" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="18" target="20" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="970" as="sourcePoint"/>
+                        <mxPoint x="608.82" y="1030" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="L'aider avec un gun" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="19" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2" y="4" relative="1" as="geometry">
+                        <mxPoint x="3" y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="Vous n'avez pas de compétences pour les pistolets et mourrez." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="598.82" y="1000" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="18" target="23" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="950" as="sourcePoint"/>
+                        <mxPoint x="413.82" y="1170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Partir" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="22" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4619" y="2" relative="1" as="geometry">
+                        <mxPoint x="-2" y="14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Vous vous échappez" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="353.82" y="1170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="20" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="530" as="sourcePoint"/>
+                        <mxPoint x="650" y="270" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="760" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="23" target="28" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="1070" as="sourcePoint"/>
+                        <mxPoint x="413.82" y="1300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="&lt;br&gt;Avez-vous sauver le scientifique?" style="rhombus;whiteSpace=wrap;html=1;direction=south;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="353.82" y="1310" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=elbowEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="18" target="23" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="970" as="sourcePoint"/>
+                        <mxPoint x="238.82" y="1210" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="238.82" y="1120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="L'aider grace à vos arts martiaux" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="30" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6632" y="3" relative="1" as="geometry">
+                        <mxPoint x="-28" y="77" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;" parent="1" source="28" target="36" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="1460" as="sourcePoint"/>
+                        <mxPoint x="413.82" y="1520" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="438.82" y="1430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Oui" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="33" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3333" relative="1" as="geometry">
+                        <mxPoint x="65" y="17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="28" target="35" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="1460" as="sourcePoint"/>
+                        <mxPoint x="628.82" y="1370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Non" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="34" vertex="1" connectable="0">
+                    <mxGeometry x="-0.312" y="3" relative="1" as="geometry">
+                        <mxPoint x="-13" y="3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="Le scientifique ne vous aide pas et l'humanité meurt." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="598.82" y="1340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Le scientifique vous donne une deuxieme chance pour sauver l'humanité. (route activée)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="598.82" y="1460" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="28" target="43">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="1370" as="sourcePoint"/>
+                        <mxPoint x="413.82" y="1560" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="413.82" y="1500"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="Nouvelle route" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="39">
+                    <mxGeometry x="-0.1077" y="4" relative="1" as="geometry">
+                        <mxPoint x="-29" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="1270" as="sourcePoint"/>
+                        <mxPoint x="718.82" y="1020" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="1270" as="sourcePoint"/>
+                        <mxPoint x="448.82" y="1220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Avec nouvelles informations, vous avez une chance de sauvez l'humanité" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="353.82" y="1560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="43" target="45">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="1550" as="sourcePoint"/>
+                        <mxPoint x="413.82" y="1690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="se sacrifier pour la cause?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="353.82" y="1680" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="48">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="1750" as="sourcePoint"/>
+                        <mxPoint x="598.82" y="1740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="Non" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="46">
+                    <mxGeometry x="-0.3807" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="51">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="398.82" y="1750" as="sourcePoint"/>
+                        <mxPoint x="413.82" y="1880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="L'humanité meurt." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="598.82" y="1710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Vous sauvez l'humanité." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="353.82" y="1880" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Petite Fille importante à vous meurt si elle rentre dans l'avion." style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="690" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Vous altérez l'histoire et vos actions mènent à la fin de l'humanité" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="730" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="53">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="220" y="740" as="sourcePoint"/>
+                        <mxPoint x="720" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="52" target="53">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="220" y="740" as="sourcePoint"/>
+                        <mxPoint x="270" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="Altérez l'histoire" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="55">
+                    <mxGeometry x="-0.4235" y="2" relative="1" as="geometry">
+                        <mxPoint x="11" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="Elle meurt et vous continuez la mission." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="860" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="52" target="57">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="220" y="900" as="sourcePoint"/>
+                        <mxPoint x="270" y="850" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="Ne rien faire." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="58">
+                    <mxGeometry x="-0.3683" y="-2" relative="1" as="geometry">
+                        <mxPoint x="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="57" target="18">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="990" as="sourcePoint"/>
+                        <mxPoint x="350" y="940" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
