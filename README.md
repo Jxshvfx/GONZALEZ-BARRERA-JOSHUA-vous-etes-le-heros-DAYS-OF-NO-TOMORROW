@@ -10,6 +10,6 @@
 
 # Diagramme
 
-![Diagramme](https://github.com/Jxshvfx/vous-etes-le-heros-days-of-no-tomorrow/blob/main/assets/gonzalezbarrera_joshua_PS1.1_582-324MO)
+![Diagramme]([https://github.com/Jxshvfx/vous-etes-le-heros-days-of-no-tomorrow/blob/main/assets/gonzalezbarrera_joshua_PS1.1_582-324MO](https://github.com/Jxshvfx/vous-etes-le-heros-days-of-no-tomorrow/blob/main/assets/schema_days_of_no_tomorrow.png)https://github.com/Jxshvfx/vous-etes-le-heros-days-of-no-tomorrow/blob/main/assets/schema_days_of_no_tomorrow.png)
 
 
