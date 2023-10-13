@@ -44,11 +44,12 @@ img {
 
 button {
     margin: 0 100px;
-    width: 75px;
-    height: 30px;
+    width: 100px;
+    height: 75px;
     border-radius: 10px;
     background-color: #3E5E70;
     color: white;
+    text-align: center;
 }
 
 button:hover {
