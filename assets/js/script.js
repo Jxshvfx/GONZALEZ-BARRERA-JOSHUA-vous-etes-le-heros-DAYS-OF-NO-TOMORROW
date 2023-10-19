@@ -164,32 +164,16 @@ let chapters = {
     image: "./assets/images/img_rienFaire.jpg",
     boutons: [
       {
-        titre: "Je l'ai sauvé",
-        destination: "sauvez",
-      },
-      {
         titre: "Je ne l'ai pas sauvé",
         destination: "pasSauvez",
       },
       {
-        titre: "Deuxième Chance",
+        titre: "Je l'ai sauvé",
         destination: "deuxiemeChance",
       },
     ],
   },
 
-  sauvez: {
-    titre: "Vous l'aviez sauvez",
-    description:
-      "Vous l'aviez sauvez et il vous donne le mot de passe. Cependant, vous n'avez pas assez de temps pour monter dans un véhicule et détruire le satellite. Cependant, le scientifique vous renvoie dans le passé une dernière fois (deuxième chance) et vous donne l'information pour obtenir un véhicule assez vite pour atteindre le satellite.",
-    image: "./assets/images/img_sauvez.png",
-    boutons: [
-      {
-        titre: "Réessayer et continuez",
-        destination: "debut",
-      },
-    ],
-  },
 
   pasSauvez: {
     titre: "Vous ne l'aviez pas Sauvez",
@@ -207,7 +191,7 @@ let chapters = {
   deuxiemeChance: {
     titre: "Deuxième Chance",
     description:
-      "C'est votre deuxième chance et avec l'information qu'il vous a donné, vous arrivez à temps pour tenter de détruire le satellite. Cependant, pour détruire le satellite, vous devrez vous sacrifiez pour la cause, et personne ne saura qui vous êtes. Vous vous sacrifiez?",
+      "Vous l'aviez sauvez et il vous donne le mot de passe. Cependant, vous n'avez pas assez de temps pour monter dans un véhicule et détruire le satellite. Cependant, le scientifique vous renvoie dans le passé une dernière fois (deuxième chance) et vous donne l'information pour obtenir un véhicule assez vite pour atteindre le satellite. C'est votre deuxième chance et avec l'information qu'il vous a donné, vous arrivez à temps pour tenter de détruire le satellite. Cependant, pour détruire le satellite, vous devrez vous sacrifiez pour la cause, et personne ne saura qui vous êtes. Vous vous sacrifiez?",
     image: "./assets/images/img_deuxiemeChance.png",
     boutons: [
       {
@@ -295,6 +279,5 @@ function goToChapter(chapterTitle) {
   }
 }
 
-const twist = false;
-
 goToChapter("debut");
+
