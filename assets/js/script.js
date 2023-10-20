@@ -167,10 +167,11 @@ let chapters = {
         titre: "Je ne l'ai pas sauvé",
         destination: "pasSauvez",
       },
+      /*
       {
         titre: "Je l'ai sauvé",
         destination: "deuxiemeChance",
-      },
+      },*/
     ],
   },
 
@@ -251,6 +252,8 @@ let chapters = {
 
 goToChapter("debut"); */
 
+let twist = false;
+
 function goToChapter(chapterTitle) {
   if (typeof chapterTitle === "string" && chapterTitle in chapters) {
     const chapitreName = chapters[chapterTitle];
@@ -258,6 +261,10 @@ function goToChapter(chapterTitle) {
     const desc = document.querySelector("#paragraphe");
     const img = document.querySelector("img");
     const button = document.querySelector("#options");
+
+    if (chapters[chapterTitle] && chapterTitle === 'artMartiaux') {
+      twist = true;
+    }
 
     chapitre.textContent = chapitreName.titre;
     desc.textContent = chapitreName.description;
@@ -274,8 +281,17 @@ function goToChapter(chapterTitle) {
         goToChapter(chapitreName.boutons[i].destination);
       });
       button.appendChild(nouveauBtn);
-    }
 
+      if (chapterTitle === "endgame" && twist) {
+        const button = document.getElementById('options');
+        const newBtn = document.createElement('button');
+        newBtn.textContent = "Je l'ai sauvé";
+        newBtn.addEventListener('click', () => {
+          goToChapter('deuxiemeChance');
+        });
+        button.appendChild(newBtn);
+      }
+    }
   }
 }
 
