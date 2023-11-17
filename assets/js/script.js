@@ -7,7 +7,7 @@ let chapters = {
     boutons: [
       {
         titre: "Commencez la mission",
-        destination: 'infiltration',
+        destination: "infiltration",
       },
     ],
   },
@@ -52,7 +52,7 @@ let chapters = {
         destination: "debut",
       },
     ],
-    audio: "./assets/audios/game_over.mp3"
+    audio: "./assets/audios/game_over.mp3",
   },
 
   choixDifficile: {
@@ -83,20 +83,21 @@ let chapters = {
         destination: "debut",
       },
     ],
-    audio: "./assets/audios/game_over.mp3"
+    audio: "./assets/audios/game_over.mp3",
   },
 
   rienFaire: {
     titre: "Ne rien faire",
     description:
       "Vous décidez de ne rien faire et laissez la fille mourir. Un sacrifice inévitable.",
-    image: "./assets/images/img_aviondetruit.jpg",
+    image: "",
     boutons: [
       {
         titre: "Continuer",
         destination: "escapade",
       },
     ],
+    video: "./assets/videos/video_plane.mp4",
   },
 
   escapade: {
@@ -131,21 +132,21 @@ let chapters = {
         destination: "debut",
       },
     ],
-    audio: "./assets/audios/game_over.mp3"
+    audio: "./assets/audios/game_over.mp3",
   },
 
   artMartiaux: {
     titre: "Art Martiaux",
     description:
       "Vous décidez de le sauvez avec vos arts martiaux. Vous désarmez tout les robots et les détruiser. Le docteur vous remercie et vous échappez ensemble.",
-      image: "",
+    image: "",
     boutons: [
       {
         titre: "Continuer",
         destination: "endgame",
       },
     ],
-    video: "./assets/videos/video_combat.mp4"
+    video: "./assets/videos/video_combat.mp4",
   },
 
   echappez: {
@@ -179,7 +180,6 @@ let chapters = {
     ],
   },
 
-
   pasSauvez: {
     titre: "Vous ne l'aviez pas Sauvez",
     description:
@@ -191,7 +191,7 @@ let chapters = {
         destination: "debut",
       },
     ],
-    audio: "./assets/audios/game_over.mp3"
+    audio: "./assets/audios/game_over.mp3",
   },
 
   deuxiemeChance: {
@@ -222,7 +222,7 @@ let chapters = {
         destination: "debut",
       },
     ],
-    audio: "./assets/audios/bon_ending.mp3"
+    audio: "./assets/audios/bon_ending.mp3",
   },
 
   pasSacrifice: {
@@ -236,7 +236,7 @@ let chapters = {
         destination: "debut",
       },
     ],
-    audio: "./assets/audios/game_over.mp3"
+    audio: "./assets/audios/game_over.mp3",
   },
 };
 
@@ -268,14 +268,14 @@ function goToChapter(chapterTitle) {
     const desc = document.querySelector("#paragraphe");
     const img = document.querySelector("img");
     const button = document.querySelector("#options");
-    const video = document.querySelector("#video")
-    const audio = document.querySelector('#audio');
+    const video = document.querySelector("#video");
+    const audio = document.querySelector("#audio");
 
-    localStorage.setItem('activeChapter', chapterTitle);
+    localStorage.setItem("activeChapter", chapterTitle);
 
-    if (chapters[chapterTitle] && chapterTitle === 'artMartiaux') {
+    if (chapters[chapterTitle] && chapterTitle === "artMartiaux") {
       twist = true;
-      localStorage.setItem('twistActive', 'true');
+      localStorage.setItem("twistActive", "true");
     }
 
     chapitre.textContent = chapitreName.titre;
@@ -298,7 +298,6 @@ function goToChapter(chapterTitle) {
       audio.src = "";
     }
 
-
     while (button.firstChild) {
       button.removeChild(button.firstChild);
     }
@@ -312,11 +311,11 @@ function goToChapter(chapterTitle) {
       button.appendChild(nouveauBtn);
 
       if (chapterTitle === "endgame" && twist) {
-        const button = document.getElementById('options');
-        const newBtn = document.createElement('button');
+        const button = document.getElementById("options");
+        const newBtn = document.createElement("button");
         newBtn.textContent = "Je l'ai sauvé";
-        newBtn.addEventListener('click', () => {
-          goToChapter('deuxiemeChance');
+        newBtn.addEventListener("click", () => {
+          goToChapter("deuxiemeChance");
         });
         button.appendChild(newBtn);
       }
@@ -325,29 +324,28 @@ function goToChapter(chapterTitle) {
 }
 
 function resetJeu() {
-  localStorage.removeItem('activeChapter');
-  localStorage.removeItem('twistActive');
+  localStorage.removeItem("activeChapter");
+  localStorage.removeItem("twistActive");
   window.location.reload();
 }
 
-const resetBtn = document.querySelector('.reset');
+const resetBtn = document.querySelector(".reset");
 
-resetBtn.addEventListener('click', function (e) {
+resetBtn.addEventListener("click", function (e) {
   resetJeu();
-})
+});
 
-window.onload = function() {
-  const currentChapter = localStorage.getItem('activeChapter');
-  const twistActive = localStorage.getItem('twistActive')
+window.onload = function () {
+  const currentChapter = localStorage.getItem("activeChapter");
+  const twistActive = localStorage.getItem("twistActive");
 
   if (currentChapter) {
     goToChapter(currentChapter);
   } else {
-    goToChapter('debut');
+    goToChapter("debut");
   }
 
-  if (twistActive === 'true') {
+  if (twistActive === "true") {
     twist = true;
   }
-}
-
+};
