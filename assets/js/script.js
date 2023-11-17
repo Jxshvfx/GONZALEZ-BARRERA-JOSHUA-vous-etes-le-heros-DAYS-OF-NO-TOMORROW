@@ -222,6 +222,7 @@ let chapters = {
         destination: "debut",
       },
     ],
+    audio: "./assets/audios/bon_ending.mp3"
   },
 
   pasSacrifice: {
