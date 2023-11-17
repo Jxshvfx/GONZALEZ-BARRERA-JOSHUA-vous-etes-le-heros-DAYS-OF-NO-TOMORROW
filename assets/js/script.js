@@ -52,6 +52,7 @@ let chapters = {
         destination: "debut",
       },
     ],
+    audio: "./assets/audios/game_over.mp3"
   },
 
   choixDifficile: {
@@ -82,6 +83,7 @@ let chapters = {
         destination: "debut",
       },
     ],
+    audio: "./assets/audios/game_over.mp3"
   },
 
   rienFaire: {
@@ -129,19 +131,21 @@ let chapters = {
         destination: "debut",
       },
     ],
+    audio: "./assets/audios/game_over.mp3"
   },
 
   artMartiaux: {
     titre: "Art Martiaux",
     description:
       "Vous décidez de le sauvez avec vos arts martiaux. Vous désarmez tout les robots et les détruiser. Le docteur vous remercie et vous échappez ensemble.",
-    image: "./assets/images/img_artMartiaux.jpg",
+      image: "",
     boutons: [
       {
         titre: "Continuer",
         destination: "endgame",
       },
     ],
+    video: "./assets/videos/video_combat.mp4"
   },
 
   echappez: {
@@ -187,6 +191,7 @@ let chapters = {
         destination: "debut",
       },
     ],
+    audio: "./assets/audios/game_over.mp3"
   },
 
   deuxiemeChance: {
@@ -230,6 +235,7 @@ let chapters = {
         destination: "debut",
       },
     ],
+    audio: "./assets/audios/game_over.mp3"
   },
 };
 
@@ -261,14 +267,36 @@ function goToChapter(chapterTitle) {
     const desc = document.querySelector("#paragraphe");
     const img = document.querySelector("img");
     const button = document.querySelector("#options");
+    const video = document.querySelector("#video")
+    const audio = document.querySelector('#audio');
+
+    localStorage.setItem('activeChapter', chapterTitle);
 
     if (chapters[chapterTitle] && chapterTitle === 'artMartiaux') {
       twist = true;
+      localStorage.setItem('twistActive', 'true');
     }
 
     chapitre.textContent = chapitreName.titre;
     desc.textContent = chapitreName.description;
-    img.src = chapitreName.image;
+    if (chapitreName.image !== "") {
+      img.style.display = "block";
+      video.style.display = "none";
+      img.src = chapitreName.image;
+    } else if (chapitre.video !== "") {
+      img.style.display = "none";
+      video.style.display = "block";
+      video.src = chapitreName.video;
+      video.play();
+    }
+
+    if (chapitreName.audio !== "") {
+      audio.src = chapitreName.audio;
+      audio.play();
+    } else {
+      audio.src = "";
+    }
+
 
     while (button.firstChild) {
       button.removeChild(button.firstChild);
@@ -295,5 +323,30 @@ function goToChapter(chapterTitle) {
   }
 }
 
-goToChapter("debut");
+function resetJeu() {
+  localStorage.removeItem('activeChapter');
+  localStorage.removeItem('twistActive');
+  window.location.reload();
+}
+
+const resetBtn = document.querySelector('.reset');
+
+resetBtn.addEventListener('click', function (e) {
+  resetJeu();
+})
+
+window.onload = function() {
+  const currentChapter = localStorage.getItem('activeChapter');
+  const twistActive = localStorage.getItem('twistActive')
+
+  if (currentChapter) {
+    goToChapter(currentChapter);
+  } else {
+    goToChapter('debut');
+  }
+
+  if (twistActive === 'true') {
+    twist = true;
+  }
+}
 

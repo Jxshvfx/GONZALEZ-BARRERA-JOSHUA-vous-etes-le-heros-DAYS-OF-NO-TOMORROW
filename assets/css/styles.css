@@ -57,3 +57,20 @@ button:hover {
     color: #3E5E70;
     background-color: #85CAF2;
 }
+
+.reset {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    width: 100px;
+    height: 40px; 
+    border-radius: 5px;
+    background-color: #3E5E70;
+    color: white;
+    text-align: center;
+}
+
+#video {
+    width: 100%;
+    margin: 25px 0;
+}
