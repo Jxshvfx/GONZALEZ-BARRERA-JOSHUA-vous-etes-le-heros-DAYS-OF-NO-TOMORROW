@@ -44,7 +44,7 @@ img {
 }
 
 button {
-    margin: 0 100px;
+    margin: 0 5vw;
     width: 100px;
     height: 75px;
     border-radius: 10px;
@@ -73,4 +73,10 @@ button:hover {
 #video {
     width: 100%;
     margin: 25px 0;
+}
+
+@media screen and (orientation: portrait) {
+    #logo {font-size: 5vw;}
+    #chapitre {font-size: 2vh;}
+    button {width: 12vh; margin: 0 1vh;}
 }

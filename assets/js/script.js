@@ -335,9 +335,24 @@ resetBtn.addEventListener("click", function (e) {
   resetJeu();
 });
 
+const muteBtn = document.getElementById("muteBtn");
+
+function mute() {
+  if (muteBtn.checked) {
+    audio.muted = true;
+    localStorage.setItem("ismuted", "true")
+  } else {
+    audio.muted = false;
+    localStorage.setItem("ismuted", "false")
+  }
+}
+const audio = document.querySelector("#audio");
+muteBtn.addEventListener("change", mute);
+
 window.onload = function () {
   const currentChapter = localStorage.getItem("activeChapter");
   const twistActive = localStorage.getItem("twistActive");
+  const audioMuted = localStorage.getItem("ismuted");
 
   if (currentChapter) {
     goToChapter(currentChapter);
@@ -348,4 +363,13 @@ window.onload = function () {
   if (twistActive === "true") {
     twist = true;
   }
+
+  if (audioMuted === "true") {
+    muteBtn.checked = true;
+  } else {
+    muteBtn.checked = false;
+  } 
+  mute();
 };
+
+
