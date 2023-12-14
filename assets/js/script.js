@@ -338,11 +338,13 @@ resetBtn.addEventListener("click", function (e) {
 const muteBtn = document.getElementById("muteBtn");
 
 function mute() {
+  const audioElement = document.querySelector("#audio");
   if (muteBtn.checked) {
-    audio.muted = true;
+    audioElement.muted = true;
     localStorage.setItem("ismuted", "true")
   } else {
-    audio.muted = false;
+    audioElement.play();
+    audioElement.muted = false;
     localStorage.setItem("ismuted", "false")
   }
 }
